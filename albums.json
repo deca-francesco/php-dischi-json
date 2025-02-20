@@ -2,99 +2,106 @@
     {
         "titolo": "Painkiller",
         "artista": "Judas Priest",
-        "cover": "https://m.media-amazon.com/images/I/81x0MCMnJYL.jpg",
+        "cover": "https:\/\/m.media-amazon.com\/images\/I\/81x0MCMnJYL.jpg",
         "anno": 1990,
         "genere": "Heavy Metal"
     },
     {
         "titolo": "Italian Folk Metal",
         "artista": "Nanowar of Steel",
-        "cover": "https://m.media-amazon.com/images/I/81cWtLkZgxL.jpg",
+        "cover": "https:\/\/m.media-amazon.com\/images\/I\/81cWtLkZgxL.jpg",
         "anno": 2021,
-        "genere": "Comedy Metal / Folk Metal"
+        "genere": "Comedy Metal \/ Folk Metal"
     },
     {
         "titolo": "Thunder in the Sky",
         "artista": "Manowar",
-        "cover": "https://m.media-amazon.com/images/I/51x52kuV+yL.jpg",
+        "cover": "https:\/\/m.media-amazon.com\/images\/I\/51x52kuV+yL.jpg",
         "anno": 2009,
-        "genere": "Heavy Metal / Epic Metal"
+        "genere": "Heavy Metal \/ Epic Metal"
     },
     {
         "titolo": "Kill",
         "artista": "Cannibal Corpse",
-        "cover": "https://m.media-amazon.com/images/I/81onqZSN8bL.jpg",
+        "cover": "https:\/\/m.media-amazon.com\/images\/I\/81onqZSN8bL.jpg",
         "anno": 2006,
         "genere": "Death Metal"
     },
     {
-        "titolo": "The Elysian Grandeval Galèriarch",
+        "titolo": "The Elysian Grandeval Gal\u00e8riarch",
         "artista": "Infant Annihilator",
-        "cover": "https://m.media-amazon.com/images/I/814fX7FEJfL.jpg",
+        "cover": "https:\/\/m.media-amazon.com\/images\/I\/814fX7FEJfL.jpg",
         "anno": 2016,
         "genere": "Technical Deathcore"
     },
     {
         "titolo": "Reign in Blood",
         "artista": "Slayer",
-        "cover": "https://m.media-amazon.com/images/I/71h9Dwvdt8L.jpg",
+        "cover": "https:\/\/m.media-amazon.com\/images\/I\/71h9Dwvdt8L.jpg",
         "anno": 1986,
         "genere": "Thrash Metal"
     },
     {
         "titolo": "All Hope Is Gone",
         "artista": "Slipknot",
-        "cover": "https://m.media-amazon.com/images/I/914Z9IVF6CL.jpg",
+        "cover": "https:\/\/m.media-amazon.com\/images\/I\/914Z9IVF6CL.jpg",
         "anno": 2008,
         "genere": "Nu Metal"
     },
     {
         "titolo": "Rust in Peace",
         "artista": "Megadeth",
-        "cover": "https://i.scdn.co/image/ab67616d000082c142be808911785ceb13140edc",
+        "cover": "https:\/\/i.scdn.co\/image\/ab67616d000082c142be808911785ceb13140edc",
         "anno": 1990,
         "genere": "Thrash Metal"
     },
     {
         "titolo": "Master of Reality",
         "artista": "Black Sabbath",
-        "cover": "https://m.media-amazon.com/images/I/711B2n4+5oL.jpg",
+        "cover": "https:\/\/m.media-amazon.com\/images\/I\/711B2n4+5oL.jpg",
         "anno": 1971,
         "genere": "Heavy Metal"
     },
     {
         "titolo": "Master of Puppets",
         "artista": "Metallica",
-        "cover": "https://m.media-amazon.com/images/I/81smL3b3+jL.jpg",
+        "cover": "https:\/\/m.media-amazon.com\/images\/I\/81smL3b3+jL.jpg",
         "anno": 1986,
         "genere": "Thrash Metal"
     },
     {
         "titolo": "Ace of Spades",
-        "artista": "Motörhead",
-        "cover": "https://m.media-amazon.com/images/I/91K+uvosqxL.jpg",
+        "artista": "Mot\u00f6rhead",
+        "cover": "https:\/\/m.media-amazon.com\/images\/I\/91K+uvosqxL.jpg",
         "anno": 1980,
         "genere": "Heavy Metal"
     },
     {
         "titolo": "Cowboys from Hell",
         "artista": "Pantera",
-        "cover": "https://m.media-amazon.com/images/I/91gDINDQ7sL.jpg",
+        "cover": "https:\/\/m.media-amazon.com\/images\/I\/91gDINDQ7sL.jpg",
         "anno": 1990,
         "genere": "Groove Metal"
     },
     {
         "titolo": "Scream Bloody Gore",
         "artista": "Death",
-        "cover": "https://m.media-amazon.com/images/I/81P-DXwZ43L.jpg",
+        "cover": "https:\/\/m.media-amazon.com\/images\/I\/81P-DXwZ43L.jpg",
         "anno": 1987,
         "genere": "Death Metal"
     },
     {
         "titolo": "DOOM (Original Game Soundtrack)",
         "artista": "Mick Gordon",
-        "cover": "https://m.media-amazon.com/images/I/818x3lyFHDL.jpg",
+        "cover": "https:\/\/m.media-amazon.com\/images\/I\/818x3lyFHDL.jpg",
         "anno": 2016,
-        "genere": "Soundtrack / Metal"
+        "genere": "Soundtrack \/ Metal"
+    },
+    {
+        "titolo": "Outlier",
+        "artista": "Twelve Foot Ninja",
+        "cover": "https:\/\/m.media-amazon.com\/images\/I\/A1bV-frYw3S.jpg",
+        "anno": "2016",
+        "genere": "Alternative Metal \/ Progressive Metal"
     }
 ]

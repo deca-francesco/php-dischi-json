@@ -1,10 +1,3 @@
-<?php
-
-require_once("./functions.php");
-
-?>
-
-
 <!doctype html>
 <html lang="en">
 
@@ -39,28 +32,28 @@ require_once("./functions.php");
     <header class="bg-black py-3">
         <div class="container d-flex justify-content-between align-items-center">
             <h1>PHP Dischi METAL 🤘 </h1>
-            <a href="./form.php" class="btn btn-light">Aggiungi un album</a>
+            <a href="./index.php" class="btn btn-light">Torna indietro</a>
         </div>
     </header>
     <main>
         <div class="container mt-5 mb-5">
-            <h2>Album metal di ogni genere</h2>
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-xl-4 g-3">
-
-                <?php foreach ($array_albums as $album) {
-                    echo '<div class="col">';
-                    echo '<div class="card bg-black text-light p-3 h-100">';
-                    echo '<img src="' . $album['cover'] . '" alt="..."  />';
-                    echo '<h4 class="card-text mt-2 mb-4">' . $album['titolo'] . '</h4>';
-                    echo '<span class="card-text">' .  $album['artista'] . '</span>';
-                    echo '<span class="card-text">' .  $album['anno'] . '</span>';
-                    echo '<span class="card-text">' .  $album['genere'] . '</span>';
-                    echo '</div>';
-                    echo '</div>';
-                }
-                ?>
-
-            </div>
+            <h2>Inserisci un nuovo album</h2>
+            <form action="./server.php" method="POST" class="card p-3">
+                <label for="titolo">Inserisci il titolo</label>
+                <input type="text" class="form-control mb-3" name="titolo" id="titolo" placeholder="Titolo">
+                <label for="artista">Inserisci il nome dell'artista</label>
+                <input type="text" class="form-control mb-3" name="artista" id="artista" placeholder="Artista">
+                <label for="cover">Inserisci l'url della cover</label>
+                <input type="text" class="form-control mb-3" name="cover" id="cover" placeholder="Cover">
+                <label for="anno">Inserisci l'anno di uscita</label>
+                <input type="number" class="form-control mb-3" name="anno" id="anno" placeholder="Anno">
+                <label for="genere">Inserisci il genere</label>
+                <input type="text" class="form-control mb-3" name="genere" id="genere" placeholder="Genere">
+                <div>
+                    <button class="btn btn-primary">Inserisci</button>
+                </div>
+            </form>
+        </div>
     </main>
     <footer>
 
