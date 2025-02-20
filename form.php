@@ -39,16 +39,17 @@
         <div class="container mt-5 mb-5">
             <h2>Inserisci un nuovo album</h2>
             <form action="./server.php" method="POST" class="card p-3">
+                <h6>Tutti i campi sono obbligatori</h6>
                 <label for="titolo">Inserisci il titolo</label>
-                <input type="text" class="form-control mb-3" name="titolo" id="titolo" placeholder="Titolo">
+                <input type="text" class="form-control mb-3" name="titolo" id="titolo" placeholder="Titolo" required>
                 <label for="artista">Inserisci il nome dell'artista</label>
-                <input type="text" class="form-control mb-3" name="artista" id="artista" placeholder="Artista">
+                <input type="text" class="form-control mb-3" name="artista" id="artista" placeholder="Artista" required>
                 <label for="cover">Inserisci l'url della cover</label>
-                <input type="text" class="form-control mb-3" name="cover" id="cover" placeholder="Cover">
+                <input type="text" class="form-control mb-3" name="cover" id="cover" placeholder="Cover" required>
                 <label for="anno">Inserisci l'anno di uscita</label>
-                <input type="number" class="form-control mb-3" name="anno" id="anno" placeholder="Anno">
+                <input type="number" class="form-control mb-3" name="anno" id="anno" placeholder="Anno" required>
                 <label for="genere">Inserisci il genere</label>
-                <input type="text" class="form-control mb-3" name="genere" id="genere" placeholder="Genere">
+                <input type="text" class="form-control mb-3" name="genere" id="genere" placeholder="Genere" required>
                 <div>
                     <button class="btn btn-primary">Inserisci</button>
                 </div>

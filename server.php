@@ -19,8 +19,8 @@ $array_albums = json_decode($json_albums, true);
 // aggiungiamo il nuovo album all'array php
 $array_albums[] = $nuovo_album;
 
-// riconvertiamo l'array php in json
-$json_albums  = json_encode($array_albums);
+// riconvertiamo l'array php in json formattato bene con json_pretty_print
+$json_albums  = json_encode($array_albums, JSON_PRETTY_PRINT);
 
 // sovrascriviamo il file json, altrimenti mostra quello vecchio
 file_put_contents("./albums.json", $json_albums);
