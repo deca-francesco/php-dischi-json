@@ -47,18 +47,17 @@ require_once("./functions.php");
             <h2>Album metal di ogni genere</h2>
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-xl-4 g-3">
 
-                <?php foreach ($array_albums as $album) {
-                    echo '<div class="col">';
-                    echo '<div class="card bg-black text-light p-3 h-100">';
-                    echo '<img src="' . $album['cover'] . '" alt="..."  />';
-                    echo '<h4 class="card-text mt-2 mb-4">' . $album['titolo'] . '</h4>';
-                    echo '<span class="card-text">' .  $album['artista'] . '</span>';
-                    echo '<span class="card-text">' .  $album['anno'] . '</span>';
-                    echo '<span class="card-text">' .  $album['genere'] . '</span>';
-                    echo '</div>';
-                    echo '</div>';
-                }
-                ?>
+                <?php foreach ($array_albums as $album) { ?>
+                    <div class="col">
+                        <div class="card bg-black text-light p-3 h-100">
+                            <img src="<?php echo $album['cover'] ?>" alt="<?php echo $album['titolo'] ?>" />
+                            <h4 class="card-text mt-2 mb-4"> <?php echo $album['titolo'] ?></h4>
+                            <span class="card-text"> <?php echo $album['artista'] ?></span>
+                            <span class="card-text"> <?php echo $album['anno'] ?></span>
+                            <span class="card-text"> <?php echo $album['genere'] ?></span>
+                        </div>
+                    </div>
+                <?php } ?>
 
             </div>
     </main>
