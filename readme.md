@@ -10,3 +10,15 @@ Nello svolgere l’esercizio seguite un approccio graduale.
 
 ## Bonus
 Tramite un form, dai la possibilità all’utente di aggiungere un disco dall’elenco.
+
+# Risultato
+- homepage
+<br>
+<img src="./result/result-1.png">
+
+<br>
+<br>
+
+- form inserimento
+<br>
+<img src="./result/result-2.png">
